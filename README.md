@@ -4,5 +4,7 @@ Implemented additional features such as timestamps and user login notifications.
 
 # Install
 npm install
+
 npm run webpack
+
 npm run start
