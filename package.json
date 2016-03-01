@@ -1,0 +1,30 @@
+{
+  "name": "IRChat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "webpack": "webpack --config webpack.config.dev.js",
+    "prod": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "react": "^0.14.7",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.8.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.7.1"
+  }
+}
